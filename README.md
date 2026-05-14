@@ -1,19 +1,20 @@
 # WorldAct: Activating Monolithic 3D Worlds into Interactive-Ready Object-Centric Scenes
-[Jichen Hu](), [Jiawei Guo](https://github.com/GuoCalix), [Jiazhong Cen](), [Chen Yang](), [Sikuang Li](), [Wei Shen]()
+[Jichen Hu](), [Jiawei Guo](https://github.com/GuoCalix), [Jiazhong Cen](https://github.com/Jumpat), [Chen Yang](), [Sikuang Li](), [Wei Shen]()
 
 "WorldAct: Activating Monolithic 3D Worlds into Interactive-Ready Object-Centric Scenes", arXiv 2026
 <p align="center">
-  <a href="https://github.com/GuoCalix/WorldAct/releases"><img alt="GitHub downloads" src="https://img.shields.io/github/downloads/GuoCalix/WorldAct/total?color=green"></a>
-  <a href="https://github.com/GuoCalix/WorldAct"><img alt="Visitors" src="https://visitor-badge.laobi.icu/badge?page_id=GuoCalix/WorldAct"></a>
+  <a href=#><img alt="Official Site" src="https://img.shields.io/badge/Official%20Site-333399?logo=homeassistant&logoColor=white"></a>
+  <a href="https://github.com/SJTU-DeepVisionLab/WorldAct/releases"><img alt="GitHub downloads" src="https://img.shields.io/github/downloads/SJTU-DeepVisionLab/WorldAct/total?color=green"></a>
+  <a href="https://github.com/SJTU-DeepVisionLab/WorldAct"><img alt="Visitors" src="https://visitor-badge.laobi.icu/badge?page_id=SJTU-DeepVisionLab/WorldAct"></a>
   <a href="https://arxiv.org/abs/2605."><img alt="Paper" src="https://img.shields.io/badge/Paper-arXiv-red?logo=arxiv"></a>
-  <a href="https://github.com/GuoCalix/WorldAct/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/GuoCalix/WorldAct"></a>
+  <a href="https://github.com/SJTU-DeepVisionLab/WorldAct/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/SJTU-DeepVisionLab/WorldAct"></a>
 </p>
 
-[Project] [Supplementary Material] [Dataset]
+[Supplementary Material] [Dataset]
 
 #### 🔥🔥🔥News
 
-- **2026-05-12:** This repository is released.
+- **2026-05-14:** This repository is released.
 
 ---
 
