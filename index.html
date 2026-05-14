@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="WorldAct: Activating Monolithic 3D Worlds into Interactive-Ready Object-Centric Scenes">
+  <meta name="keywords" content="WorldAct, World model">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WorldAct: Activating Monolithic 3D Worlds into Interactive-Ready Object-Centric Scenes</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-2X3RQT9C4V"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-2X3RQT9C4V');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="stylesheet" href="./static/css/index-sass.css">
+  <link rel="icon" href="./static/images/icon.jpg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  <script src="./static/js/compare.js"></script>
+  <script src="./static/js/preload-videos.js"></script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-full has-text-centered">
+          <!-- <p style="text-align:center;">
+            <image width="80%" src="static/images/logo.png" class="img-responsive" alt="logo">
+            </p> -->
+          <p style="text-align:center;">
+          <img width="80%" src="static/images/logo.jpg" class="img-responsive" alt="logo">
+          </p>
+            <h1 class="title is-1 publication-title">WorldAct: Activating Monolithic 3D Worlds into Interactive-Ready Object-Centric Scenes</h1>
+          <h2 class="is-size-4 publication-venue">Preprint</h2>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="">Jichen Hu</a><sup>1*</sup>,
+            </span>
+            <span class="author-block">
+              <a href="">Jiawei Guo</a><sup>1*</sup>,
+            </span>
+            <span class="author-block">
+              <a href="">Jiazhong Cen</a><sup>1*</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://scholar.google.com/citations?hl=zh-CN&user=StdXTR8AAAAJ">Chen Yang</a><sup>2</sup>,
+            </span>
+            <span class="author-block">
+              <a href="">Sikuang Li</a><sup>1</sup>,
+            </span>
+            <span class="author-block">
+              <a href="https://shenwei1231.github.io/">Wei Shen</a><sup>1✉</sup>,
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>Shanghai Jiao Tong University</span><br/>
+            <span class="author-block"><sup>2</sup>Huawei Inc.</span>
+          </div>
+
+          <div>
+            <span>* <i>Equal contribution. </i></span>
+            <!-- <span>† <i>Project lead.</i></span></br> -->
+            <span>✉ <i>Corresponding author.</i></span></br>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- <span class="link-block">
+                <a href="https://raw.githubusercontent.com/GaussianObject/gaussianobject.github.io/main/assets/paper.pdf"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper - HQ</span>
+                </a>
+              </span>
+              <span class="link-block">
+                <a href="https://dl.acm.org/doi/10.1145/3687759"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper - TOG</span>
+                </a>
+              </span> -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+              <!-- <span class="link-block">
+                <a href="https://www.youtube.com/watch?v=s5arAXdgdZQ"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span> -->
+              <span class="link-block">
+                <a href="https://github.com/SJTU-DeepVisionLab/WorldAct"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                </a>
+              </span>
+              <!-- <span class="link-block">
+                <a href="https://huggingface.co/spaces/sjtu-deepvision/Dereflection-Any-Image"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-robot"></i>
+                  </span>
+                  <span>Demo</span>
+                </a>
+              </span> -->
+              <span class="link-block">
+                <a href=""
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-google-drive"></i>
+                  </span>
+                  <span>Data</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full" id="single-comparison">
+        <div class="content has-text-justified">
+          <p>
+            <strong>TL;DR: </strong> WorldAct turns monolithic 3DGS scenes into interactive, object-decomposed worlds with editing and embodied manipulation support.
+          </p>
+        </div>
+        <p style="text-align:center;">
+            <img src="static/images/teaser.png" alt="Teaser" width="100%" style="max-width: 100%; height: auto;">
+        </p>
+        <div class="content has-text-justified">
+          <p>
+              WorldAct converts a monolithic 3DGS scene into a decomposable, object-centric, and interaction-ready environment. By separating individual 3D objects and augmenting them with structures required for physical interaction, our framework enables downstream simulation tasks such as robotic manipulation and scene rearrangement.
+          </p>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="section grey-bg">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Recent 3D world modeling systems based on generative scene synthesis, such as Marble, can create coherent and explorable 3D environments, yet their outputs are typically static monolithic assets with limited editability and physical interaction. This restricts their use in immersive content creation and embodied simulation, where generated worlds must be actively modified and manipulated. To tackle this challenge, we present WorldAct, a framework that converts static generated 3D worlds into editable and interaction-ready scenes. WorldAct uses a multimodal agent to guide scene decomposition, identify actionable objects, reconstruct geometrically aligned object-level meshes for interaction, and restore the residual background via 3D inpainting. The resulting scenes support object-level editing, collision-aware manipulation, and embodied task execution while preserving global scene coherence. Experiments show that WorldAct enables richer interaction scenarios than the original generated scenes, suggesting a practical path toward editable and interactive 3D world models.          </p>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Video</h2>
+        <video poster="" id="evolution" autoplay controls muted loop playsinline height="100%">
+          <source src="static/videos/demo.mp4" type="video/mp4">
+        </video>
+        <div class="content has-text-justified">
+          <p>
+            Visualization of WorldActd, our pipeline first decomposes the scene by segmenting and removing individual objects, then inpaints the background and regenerates clean object assets. After assembly, the resulting environment supports robotic manipulation and scene editing (adding, removing, or modifying objects).          </p>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Pipeline</h2>
+        <p style="text-align:center;">
+          <image width="100%" src="static/images/pipe.png" class="img-responsive" alt="overview">
+        </p>
+        <div class="content has-text-justified">
+          <br>
+          <p>
+            WorldAct first decomposes a generated or reconstructed 3DGS scene into an object-removed background and a set of extracted object instances. It then restores the incomplete background, reconstructs scene-level collision geometry, and refines the extracted instances into clean object assets. Finally, WorldAct assembles these assets back into the restored scene, producing an interaction-ready environment with independent object representations.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Qualitative Results</h2>
+        <p style="text-align:center;">
+          <image width="100%" src="static/images/Visual.png" class="img-responsive" alt="overview">
+        </p>
+        <div class="content has-text-justified">
+          <br>
+          <p>
+            Qualitative comparison with input scenes. For each scene, we show three different viewpoints, each with the original Marble-generated input and our decomposed interactive output. Our method preserves visual fidelity while enabling object-level decomposition and interaction.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title has-text-centered">Citation</h2>
+        <!-- <pre><code>@misc{hu2025dereflection,
+    title={Dereflection Any Image with Diffusion Priors and Diversified Data},
+    author={Jichen Hu and Chen Yang and Zanwei Zhou and Jiemin Fang and Xiaokang Yang and Qi Tian and Wei Shen},
+    year={2025},
+    eprint={2503.17347},
+    archivePrefix={arXiv},
+    primaryClass={cs.CV}
+}</code></pre> -->
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com/SJTU-DeepVisionLab/WorldAct" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            The website template was borrowed from <a href="https://gaussianobject.github.io/">Gaussian Object</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "gaussianobject.github.io",
+  "version": "1.0.0",
+  "main": "sass/mystyles.scss",
+  "license": "CC BY-SA 4.0",
+  "scripts": {
+  "css-build": "node-sass --omit-source-map-url static/sass/index-sass.scss static/css/index-sass.css",
+  "css-watch": "npm run css-build -- --watch",
+  "start": "npm run css-watch",
+  "serve": "live-server --watch=static"
+  },
+  "devDependencies": {
+    "bulma": "^0.9.4",
+    "node-sass": "^9.0.0"
+  }
+}
