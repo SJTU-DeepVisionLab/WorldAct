@@ -1,16 +1,21 @@
 # WorldAct: Activating Monolithic 3D Worlds into Interactive-Ready Object-Centric Scenes
-[Jichen Hu](), [Jiawei Guo](https://github.com/GuoCalix), [Jiazhong Cen](https://github.com/Jumpat), [Chen Yang](), [Sikuang Li](), [Wei Shen]()
 
-"WorldAct: Activating Monolithic 3D Worlds into Interactive-Ready Object-Centric Scenes", arXiv 2026
 <p align="center">
-  <a href=#><img alt="Official Site" src="https://img.shields.io/badge/Official%20Site-333399?logo=homeassistant&logoColor=white"></a>
+  <img src="assets/logo.jpg" alt="WorldAct logo" width="260">
+</p>
+
+[Jichen Hu](https://github.com/Abuuu122), [Jiawei Guo](https://github.com/GuoCalix), [Jiazhong Cen](https://github.com/Jumpat), [Chen Yang](), [Sikuang Li](), [Wei Shen]()
+
+"WorldAct: Activating Monolithic 3D Worlds into Interactive-Ready Object-Centric Scenes"
+<p align="center">
+  <a href=https://sjtu-deepvisionlab.github.io/WorldAct><img alt="Official Site" src="https://img.shields.io/badge/Official%20Site-333399?logo=homeassistant&logoColor=white"></a>
   <a href="https://github.com/SJTU-DeepVisionLab/WorldAct/releases"><img alt="GitHub downloads" src="https://img.shields.io/github/downloads/SJTU-DeepVisionLab/WorldAct/total?color=green"></a>
   <a href="https://github.com/SJTU-DeepVisionLab/WorldAct"><img alt="Visitors" src="https://visitor-badge.laobi.icu/badge?page_id=SJTU-DeepVisionLab/WorldAct"></a>
-  <a href="https://arxiv.org/abs/2605."><img alt="Paper" src="https://img.shields.io/badge/Paper-arXiv-red?logo=arxiv"></a>
+  <a href="#"><img alt="Paper" src="https://img.shields.io/badge/Paper-TBD-red"></a>
+  <a href="#"><img alt="Dataset" src="https://img.shields.io/badge/Dataset-TBD-2ea44f?logo=databricks&logoColor=white"></a>
   <a href="https://github.com/SJTU-DeepVisionLab/WorldAct/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/SJTU-DeepVisionLab/WorldAct"></a>
 </p>
 
-[Supplementary Material] [Dataset]
 
 #### 🔥🔥🔥News
 
@@ -39,7 +44,7 @@
 
 ## Contents
 
-1. [Testing](#training)
+1. [Testing](#testing)
 2. [Results](#results)
 3. [Citation](#citation)
 4. [Acknowledgements](#acknowledgements)
@@ -82,7 +87,6 @@ If you find our model or code helpful in your research or work, please cite the 
 @article{hu2026worldact,
       title={WorldAct: Activating Monolithic 3D Worlds into Interactive-Ready Object-Centric Scenes},
       author={Jichen Hu and Jiawei Guo and Jiazhong Cen and Chen Yang and Sikuang Li and Wei Shen},
-      journal={arXiv preprint arXiv:2605.},
       year={2026}
 }
 ```
