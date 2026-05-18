@@ -11,7 +11,7 @@
   <a href=https://sjtu-deepvisionlab.github.io/WorldAct><img alt="Official Site" src="https://img.shields.io/badge/Official%20Site-333399?logo=homeassistant&logoColor=white"></a>
   <a href="https://github.com/SJTU-DeepVisionLab/WorldAct/releases"><img alt="GitHub downloads" src="https://img.shields.io/github/downloads/SJTU-DeepVisionLab/WorldAct/total?color=green"></a>
   <a href="https://github.com/SJTU-DeepVisionLab/WorldAct"><img alt="Visitors" src="https://visitor-badge.laobi.icu/badge?page_id=SJTU-DeepVisionLab/WorldAct"></a>
-  <a href="https://arxiv.org/abs/2605.15843"><img alt="Paper" src="https://img.shields.io/badge/Paper-TBD-red"></a>
+  <a href="https://arxiv.org/abs/2605.15843"><img alt="arXiv" src="https://img.shields.io/badge/Paper-arXiv-b31b1b?logo=arxiv&logoColor=white"></a>
   <a href="#"><img alt="Dataset" src="https://img.shields.io/badge/Dataset-TBD-2ea44f?logo=databricks&logoColor=white"></a>
   <a href="https://github.com/SJTU-DeepVisionLab/WorldAct/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/SJTU-DeepVisionLab/WorldAct"></a>
 </p>
